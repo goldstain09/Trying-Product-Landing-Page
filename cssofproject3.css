@@ -1,0 +1,800 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	overflow-x: hidden;
+	scroll-behavior: smooth;
+}
+
+/*
+a:link{ color:white!important; }
+a:visited{ color:white!important; }
+a:hover{ color:grey!important; }
+a:active{ color:grey!important; }
+*/
+h1,h2,h3,p{ overflow-y:hidden; }
+
+.active{ background:transparent!important;border-radius:0px!important;border-bottom:grey solid 2px!important; }
+.active:hover{ border-radius:0px!important;color:grey!important; }
+
+.firstbgimage1{z-index: -2!important;
+	background: url(file:///D:/Project%203/images%20for%20project%203/firstbgimg1.jpg);
+	 background-size: 100% 100%; position: fixed!important;top: 0;
+	 width: 100vw;height: 60rem;background-attachment: fixed;
+}
+
+
+/*main nav bar*/
+.mnvbar{z-index: 2;
+position: fixed;top:0;left: 0;right: 0;
+}
+.mnvbar header ul li a{z-index: 2!important;font-family: 'Raleway';font-size: 1rem;
+color: white;border-radius: 0!important;
+}
+.mnvbar header ul li a:hover{color: grey!important;border-radius: 0;
+	border-bottom: 1px grey solid!important;transition: .4s all;
+}
+/*mnvbar off canvas*/
+.mnvbaroffcnvs{display: none!important;}
+/*--------*/
+@keyframes firstanime{
+	0%{ margin-left:100%;}
+	100%{margin-left:0;}
+}
+
+/*main container div top*/
+.containertopdiv1{  }
+.containertopdiv2{ display:none;}
+
+.maintextdiv{color: white;padding-top: 13rem;
+padding-left: 2rem!important;
+}
+
+.maintextdiv  h1{ font-size:9rem ; font-weight: 200;font-family: 'Raleway';line-height: 7rem}
+.maintextdiv h2{ font-family: 'Raleway';font-size: 7rem; font-weight: 100!important;display: inline;}
+.maintextdiv h3{ animation:one 1 3s forwards; font-family: 'Raleway';font-size: 8rem;font-weight: 900; display:inline;text-shadow:3px 3px 6px grey; }
+.maintextdiv  p{font-family: 'Raleway'; width:650px;font-size:1.25rem;margin-top:2rem; }
+.maintextdiv button{margin-top: 2.5rem; font-family: 'Raleway';font-size:2rem; border-top-left-radius:50px;border-top-right-radius:50px;border-bottom-left-radius:50px;border-bottom-right-radius:50px; }
+.maintextdiv button:hover{ background:black;  }
+
+
+.maintextdiv1  h1{ font-size:9rem ; font-weight: 200;font-family: 'Raleway';line-height: 7rem}
+.maintextdiv1 h2{ font-family: 'Raleway';font-size: 7rem; font-weight: 100!important;display: inline;}
+.maintextdiv1 h3{ animation:one 1 2s forwards; font-family: 'Raleway';font-size: 8rem;font-weight: 900; display:inline;text-shadow:3px 3px 6px grey; }
+.maintextdiv1  p{font-family: 'Raleway'; width:650px;font-size:1.25rem;margin-top:2rem; }
+.maintextdiv1 button{margin-bottom: 9rem; margin-top: 2.5rem; font-family: 'Raleway';font-size:2rem; border-top-left-radius:50px;border-top-right-radius:50px;border-bottom-left-radius:50px;border-bottom-right-radius:50px; }
+.maintextdiv1 button:hover{ background:black;  }
+
+
+.imgdivtop{  height: 60rem; }
+.animeimg{z-index: -1!important;
+	width: 100%;height: 100%;animation-name:firstanime ;overflow-y: hidden!important;
+	 animation-duration: 3s;animation-fill-mode: forwards;overflow: hidden!important;
+}
+
+@keyframes one{
+	0%{ margin-left:-500px; }
+	100%{margin-left:0px; }
+}
+
+
+/* features div */
+#featurediv1{ transform: translateX(100%);transition: all 1s;}
+#featurediv2{ transform: translateX(100%);transition: all 2s;}
+#featurediv3{ transform: translateX(100%);transition: all 3s;}
+
+
+.featuresheadingdiv{ margin-top: 7rem;}
+.featuresheadingdiv h1{ font-family: 'Raleway';font-size: 4.8rem!important; font-weight: 900!important;display:inline!important;}
+.featuresheadingdiv h1 span{text-decoration-line: overline; }
+.featuresheadingdiv h1 font{  font-family: 'Raleway';font-size: 7rem!important;font-weight: 100; display:inline!important;text-shadow:3px 3px 6px grey;}
+
+.secondbgdiv{z-index: 2;
+	background:linear-gradient(to top left,rgba(255, 255, 255, 0.3),rgba(0, 0, 0, 1)), url(file:///D:/Project%203/images%20for%20project%203/secondbgimg.jpg);background-attachment: fixed;
+	background-size: 100% 100%;height: 60rem;width: 100vw;
+}
+.featurediv{margin: 1.5%; width: 30%!important;border-radius: 12px;height: 25rem;opacity: 1;border-top-right-radius: 100px;border-bottom-left-radius: 0px;border-bottom-right-radius: 0px;
+background-color: rgba(0, 0, 0,.3);border-bottom: 5px solid white;
+}
+.featurediv div h2{ text-align: center; font-size: 6rem;font-weight: 100!important;}
+.featurediv div h1{font-family: 'Raleway';text-align: center;font-size: 2.5rem;font-weight: 100; }
+.featurediv div p{font-size:1rem; font-family:'Raleway';margin-top: 3rem;}
+.featurediv1{margin-top: 13rem!important;}
+.featurediv2{margin-top:8rem!important;}
+.featurediv3{margin-top:17rem!important;}
+
+
+/* some special features  */
+
+#smespecialfeatureimgdiv1{ transform: translateY(100%);transition: all 2s; }
+#smespecialfeaturetextdiv1{transform: translateX(100%);transition: all 2s; }
+
+#smespecialfeatureimgdiv2{ transform: translateY(100%);transition: all 2s;  }
+#smespecialfeaturetextdiv2{transform: translateX(100%);transition: all 2s;}
+
+#smespecialfeatureimgdiv3{transform: translateY(100%); transition: all 2s;}
+#smespecialfeaturetextdiv3{transform: translateX(100%); transition: all 2s;}
+
+
+
+
+
+
+.smespecialfeaturemaincontainerdiv{background: url(file:///D:/Project%203/images%20for%20project%203/smespecialfeaturebgimg.jpg);background-attachment: fixed!important; height: auto;width: 100vw;background-size: 100% 100%;
+}
+ .smespecialfeaturetextdiv{background-color: rgba(245, 245, 245,.8)!important; display: flex;justify-content: center; align-items: center; border-bottom-right-radius: 0px!important;  border-radius: 10px; height: 35rem;width: 50%; background: rgba(0, 0, 0,.1);} 
+.smespecialfeaturetextdiv p{ font-size: 2rem;width: 76%;font-family: 'Raleway';}
+.smespecialfeaturetextdiv p span{ background-color: rgb(87, 87, 87);border-radius: 5px;padding: 5px;color: rgb(255, 255, 255); }
+
+
+.smespecialfeatureimgdiv1{border-radius: 10px; background: url(file:///D:/Project%203/images%20for%20project%203/smespecialfeaturedivimg1.jpg);height: 35rem;width: 50%!important;background-size: 100% 100%; margin-right: 0%;}
+
+.smespecialfeatureimgdiv2{border-radius: 10px;background: url(file:///D:/Project%203/images%20for%20project%203/smespecialfeaturedivimg2.jpg);height: 35rem;width: 50%!important;background-size: 100% 100%; margin-left: 0%;}
+
+.smespecialfeatureimgdiv3{border-radius: 10px; background: url(file:///D:/Project%203/images%20for%20project%203/smespecialfeaturedivimg3.jpg);height: 35rem;width: 50%!important;background-size: 100% 100%;margin-right: 0%;}
+
+
+
+/* about section */
+
+#aboutsectionchildodd1{transform: translateX(-100%);transition: all 1.8s; }
+#aboutsectionchildeven1{ transform: translateX(100%);transition: all 2.8s; }
+
+#aboutsectionchildodd2{transform: translateX(-100%);transition: all 3.8s;  }
+#aboutsectionchildeven2{transform: translateX(100%);transition: all 4.8s;  }
+
+#aboutsectionchildodd3{transform: translateX(-100%);transition: all 3.8s;  }
+#aboutsectionchildeven3{transform: translateX(100%);transition: all 4.8s;  }
+
+#aboutsectionchildodd4{transform: translateX(-100%);transition: all 3.8s;  }
+#aboutsectionchildeven4{ transform: translateX(100%);transition: all 3.8s; }
+
+
+
+
+.aboutheading{font-family: 'Raleway'; font-size: 6rem;color: #000000; padding-top: 2rem; padding-left: 1rem; padding-bottom: 2rem;margin-bottom: 0;}
+
+.aboutsection{background-attachment: fixed!important; height: auto;background: #ffffff; background:linear-gradient(to top left,rgba(255, 255, 255, 0.2),rgba(255, 255, 255, 0.2)),url(file:///D:/Project%203/images%20for%20project%203/aboutdivimg.jpg);background-size: 100% 100%;}
+
+.aboutsectionchildodd{padding: 1rem; margin-top: 3rem!important;  width: 35%!important;border-radius: 15px;margin-left: 8%; }
+.aboutsectionchildeven{padding:1rem;margin-top: 3rem!important;   width: 35%!important;margin-left: 19%!important;border-radius: 15px;}
+
+.aboutsection div div h1{font-family: 'Raleway';margin-top: 1rem;margin-left: 1rem;
+	color: rgb(255, 255, 255);font-size: 2rem;font-weight: 900!important;
+}
+.aboutsection div div p{font-family: 'Raleway';width: 70%;
+	color: rgb(0, 0, 0);font-size: 1rem;margin-top: 1rem;margin-left: 1rem;
+}
+
+
+
+/*  reviews section */
+#reviewdiv{ transform: translateY(100%); transition: all 3s; }
+
+
+.reviewsection{background:linear-gradient(to top left, rgba(4, 14, 18, 0.1), rgba(36, 40, 42, 0.1)) ,url(file:///D:/Project%203/images%20for%20project%203/reviewsectionbgimg.jpg);
+	height: 40rem;padding: 7.5rem 0rem;background-attachment: fixed!important;overflow: hidden!important;
+
+}
+.reviewsection div{height: 25rem; }
+
+.reviewcarouseldiv{ border-radius: 5px!important; border: none!important;width: 75%!important;margin-left: 1%!important;
+	background: transparent!important;overflow: hidden!important;
+
+}
+
+.reviewcarouseldiv:hover{ border-radius: 5px!important; }
+
+.imgdivreview{border-right: #ffffff solid 1px; width: 30%!important;margin: 0!important;padding: 0!important; display: flex;justify-content: center;padding-top: 1rem!important;}
+.imgdivreview img{ width: 70%; height: 50%; border-radius: 20%; margin-left: 3rem;margin-right: 0!important;padding-right: 0!important; } 
+ 
+.textdivreview{ width: 70%!important; margin: -1rem!important;padding: 0!important;display: flex;overflow: hidden!important;padding-top: 2rem!important; margin-top: 8rem!important;border-top: #ffffff solid 1px;
+font-family: 'Dancing Script';font-size: 1.5rem;color: #ffffff; z-index:1;background: transparent!important;
+}.textdivreview p{ margin-left: 5rem; font-weight: 100!important;}
+
+
+
+.reviewcarouselbtn2{z-index: 2!important;width: 5%!important;height:auto!important ;background: rgba(255, 255, 255,.5)!important;font-size: 2rem!important;
+	position:relative!important;left:86%!important;top:-20%!important;color: rgb(0, 0, 0)!important;border-radius: 0px!important;font-weight: 900!important;border: none!important;
+}
+.reviewcarouselbtn1{z-index: 2!important;width: 5%!important;height:auto!important ;background: rgba(255, 255, 255,.5)!important;font-weight: 900!important;
+	position:relative!important;left:80%!important;top:-20%!important;color: rgb(0, 0, 0)!important;border-radius: 0px!important;font-size: 2rem!important;border: none!important;
+}
+
+.reviewcarouselbtn1:hover,.reviewcarouselbtn2 :hover{
+	color:rgb(0, 0, 0)!important;
+}
+
+
+
+/*                   contacts                    */
+
+.contactdivcontainer{
+	width: 100%;
+	height: 60rem;
+	background: url(file:///D:/Project%203/images%20for%20project%203/contactbgimg.jpg);
+	background-size: 100% 100%;
+}
+
+legend{
+	color: #ffffff; 
+	font-size: 4rem!important;
+	font-family:'Dancing Script' ;
+}
+fieldset:first-child{
+	margin-top: 10rem!important;
+}
+fieldset:nth-child(2),fieldset:nth-child(3),fieldset:nth-child(4),fieldset:nth-child(5){
+	margin:3rem 10rem;
+}
+input[name='name']{height: 5rem;border-top-left-radius: 50px;border-bottom-left-radius: 50px;
+	width: 100%!important;font-size: 2.5rem!important;background: transparent!important;border: 1px white solid!important;
+}
+input[name='email']{height: 5rem;border-top-right-radius: 50px;border-bottom-right-radius: 50px;
+	width: 100%!important;font-size: 2.5rem!important;background: transparent!important;border:  1px white solid!important;
+}
+input[name='tel']{height: 5rem;border-top-left-radius: 50px;border-bottom-left-radius: 50px;
+	width: 100%!important;font-size: 2.5rem!important;background: transparent!important;border:  1px white solid!important;
+}
+input[name='mssg']{height: 5rem;border-top-right-radius: 50px;border-bottom-right-radius: 50px;
+	width: 100%!important;font-size: 2.5rem!important;background: transparent!important;border: 1px white solid!important;
+}
+::placeholder{
+	font-size: 2.5rem!important;text-align: center;
+	font-family: 'Raleway';color: grey;
+}
+
+fieldset:last-child{text-align: center;
+	margin-top: 5rem!important;
+}
+fieldset:last-child button{width: 50%;font-weight: 900;
+	font-size: 2.5rem; border-radius:50px!important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*==============media query==============*/
+
+/* extraa medias for main scroll  */
+
+@media(max-width:1750px){
+
+	/*animation image*/
+	.imgdivtop{ height:50rem;}
+	.maintextdiv{ padding-top:11rem; }
+	.maintextdiv h1{ font-size:8rem; }
+	.maintextdiv h2{ font-size:5.5rem;  }
+	.maintextdiv h3{ font-size:5.7rem;  }
+	.maintextdiv p{ font-size:1.2rem; width:600px; }
+	.maintextdiv button{  font-size:1.8rem; } 
+	
+	
+	/* features div */
+	
+	.featuresheadingdiv{ margin-top: 6rem;}
+	.featuresheadingdiv h1{ font-size: 4.2rem!important; }
+	.featuresheadingdiv h1 font{  font-size: 6rem!important;}
+	
+	/* .featurediv{ } */
+	.featurediv div h2{font-size: 6rem; }
+	.featurediv div h1{font-size: 2.5rem; }
+	.featurediv div p{font-size: .9rem;margin-top: 3rem; }
+	.featurediv1{ margin-top: 11rem!important;}
+	.featurediv2{ margin-top:6rem!important;}
+	.featurediv3{ margin-top:15rem!important;}
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	}
+
+
+
+/*---------------------------------------------*/
+@media(max-width:1400px){
+/*animation image*/
+.imgdivtop{ height:45rem!important;}
+.maintextdiv{ padding-top:10rem; }
+.maintextdiv h1{ font-size:7rem!important; }
+.maintextdiv h2{ font-size:4.7rem!important;  }
+.maintextdiv h3{ font-size:5rem!important;  }
+.maintextdiv p{ font-size:1.1rem!important; width:480px!important; }
+.maintextdiv button{  font-size:1.7rem!important; } 
+
+
+
+
+/* features div */
+
+.featuresheadingdiv{ margin-top: 5rem;}
+.featuresheadingdiv h1{ font-size: 3.5rem!important; }
+.featuresheadingdiv h1 font{  font-size: 5rem!important;}
+
+.secondbgdiv{ height: 50rem; }
+.featurediv div h2{font-size: 5rem; }
+.featurediv div h1{font-size: 2.2rem; }
+.featurediv div p{font-size: .8rem;margin-top: 2rem; }
+.featurediv1{ margin-top: 10rem!important;height: 22.5rem;}
+.featurediv2{ margin-top:5rem!important;height: 21rem;}
+.featurediv3{ margin-top:14rem!important;height: 21rem;}
+
+
+/* about section */
+.aboutheading{ font-size: 5rem; }
+.aboutsectionchildodd{ margin-left: 2%;}
+.aboutsectionchildeven{ margin-left:25%!important; }
+.aboutsection div div h1{ font-size: 1.8rem; }
+.aboutsection div div p{ width: 90%; font-size: .9rem;}
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+/*---------------------------------------------*/
+@media(max-width:1200px){
+/*animation image*/
+.imgdivtop{ height:40rem!important; margin-top: 2rem!important;}
+.maintextdiv{ padding-top:7rem!important; }
+.maintextdiv h1{ font-size:5rem!important; }
+.maintextdiv h2{ font-size:4rem!important;  }
+.maintextdiv h3{ font-size:4.1rem!important;  }
+.maintextdiv p{ font-size:.9rem!important; width:360px!important; }
+.maintextdiv button{  font-size:1.5rem!important;margin-top:1.5rem!important; } 
+
+
+/* features div */
+
+.featuresheadingdiv{ margin-top: 4.5rem;}
+.featuresheadingdiv h1{ font-size: 3rem!important; }
+.featuresheadingdiv h1 font{  font-size: 4.3rem!important;}
+
+.secondbgdiv{ height: 47rem; }
+.featurediv div h2{font-size: 4rem; }
+.featurediv div h1{font-size: 1.8rem; }
+.featurediv div p{font-size: .7rem;margin-top: 1.6rem; }
+.featurediv1{ margin-top: 9rem!important;height: 18rem;}
+.featurediv2{ margin-top:5rem!important;height: 18rem;}
+.featurediv3{ margin-top:14rem!important;height: 18rem;}
+
+
+
+
+/* about section */
+.aboutheading{ font-size: 4rem; }
+.aboutsectionchildodd{ margin-left: 1%;margin-top: 1.6rem!important; padding: .5rem!important;}
+.aboutsectionchildeven{ margin-left:25%!important; margin-top: 1.6rem!important;padding: .5rem!important;}
+.aboutsection div div h1{ font-size: 1.6rem;margin-top: .5rem!important; }
+.aboutsection div div p{ width: 90%; font-size: .8rem;}
+
+
+
+
+/* reviews section */
+
+
+
+.reviewcarouseldiv{ }
+
+.imgdivreview{ }
+.imgdivreview img{ width: 65%;height: 35%;margin-left: 2rem!important; }
+.textdivreview{ font-size: 1.2rem;}
+.textdivreview p{ }
+.reviewcarouselbtn2{width:4rem!important; overflow: visible!important;}
+.reviewcarouselbtn1{width:4rem!important;overflow: visible!important; }
+
+}
+
+
+
+
+
+
+
+
+
+/*---------------------------------------------*/
+@media(max-width:992px){
+/*animation image*/
+.imgdivtop{ height:33rem!important; margin-top: 2rem!important}
+.maintextdiv{ padding-top:6rem!important;}
+.maintextdiv h1{ font-size:4rem!important; }
+.maintextdiv h2{ font-size:3rem!important;  }
+.maintextdiv h3{ font-size:3.1rem!important;  }
+.maintextdiv p{ font-size:.7rem!important; width:310px!important; }
+.maintextdiv button{  font-size:1.1rem!important;margin-top:1rem!important; } 
+
+
+
+/* features div */
+
+.featuresheadingdiv{ margin-top: 4rem;}
+.featuresheadingdiv h1{ font-size: 2.5rem!important; }
+.featuresheadingdiv h1 font{  font-size: 3.8rem!important;}
+
+.secondbgdiv{ height: 41rem; }
+.featurediv div h2{font-size: 2.8rem; }
+.featurediv div h1{font-size: 1.3rem; }
+.featurediv div p{font-size: .6rem;margin-top: 1.1rem; }
+.featurediv1{ margin-top: 8rem!important;height: 15rem;}
+.featurediv2{ margin-top:5rem!important;height: 15rem;}
+.featurediv3{ margin-top:12rem!important;height: 15rem;}
+
+
+/* some special features div */
+
+.smespecialfeaturetextdiv{ height: 25rem; }
+.smespecialfeaturetextdiv p{ font-size: 1rem; }
+
+.smespecialfeatureimgdiv1{ height: 25rem;}
+.smespecialfeatureimgdiv2{ height: 25rem;}
+.smespecialfeatureimgdiv3{ height: 25rem;}
+
+
+
+
+
+
+/* about section */
+.aboutheading{ font-size: 3.5rem; }
+.aboutsection{ background-size: 100% 100%!important; background:url(file:///D:/Project%203/images%20for%20project%203/aboutdivimg2.jpg) ;}
+.aboutsectionchildodd{ margin-left: 1%;margin-top: 1.3rem!important; padding: .5rem!important;}
+.aboutsectionchildeven{ margin-left:25%!important; margin-top: 1.3rem!important;padding: .5rem!important;}
+.aboutsection div div h1{ font-size: 1.3rem;margin-top: .5rem!important; }
+.aboutsection div div p{ width: 90%; font-size: .7rem;}
+
+
+/* reviews section */
+
+
+.reviewsection div{height: 23.5rem; }
+.reviewcarouseldiv{ width: 95%!important;margin-left: 0%!important;}
+
+.imgdivreview{ }
+.imgdivreview img{ width: 65%;height: 35%;margin-left: 2rem!important; }
+.textdivreview{ font-size: 1rem;}
+.textdivreview p{ }
+.reviewcarouselbtn2{width:4rem!important; left: 76%!important;top: -17%!important;font-size: 1.5rem!important;}
+.reviewcarouselbtn1{width:4rem!important; left: 70%!important;top: -17%!important;font-size: 1.5rem!important; }
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------------------------------*/
+@media(max-width:768px){
+.mnvbar{ display:none; }
+.offcanvasdv{height: 30rem!important; width:80%;margin-left:10%; background:rgba(255, 255, 255, .8)!important; }
+.mnvbaroffcnvs{border: none!important; display: block!important;z-index: 1;color:white;position: fixed;top: 5px; right: 5px;}
+.offcanvaslistnav ul li{ display:block!important; height: 4rem;text-align: center;}
+.offcanvaslistnav ul li a{ color:black;font-size:2rem;font-weight: 900;font-family: 'Raleway';}
+.offcanvaslistnav ul li:hover{ background:rgba(0, 0, 0, .1); transition: all .4s; transform: scale(.99);}
+.offcanvaslistnav ul li:hover a{ color:grey; }
+
+/*animation image*/
+.imgdivtop1{ height:36rem!important;width:80%!important;margin-left:20%!important;margin-top:3rem!important }
+.containertopdiv1{ display:none;  }
+.containertopdiv2{display: block;}
+
+.maintextdiv1{ width:90%!important; color: white;font-family: 'Raleway';padding-left: 8%!important;padding-top:0rem!important; }
+.maintextdiv1 h1{ font-size:5rem!important; }
+.maintextdiv1 h2{ font-size:4rem!important;  }
+.maintextdiv1 h3{ font-size:4.1rem!important;  }
+.maintextdiv1 p{ font-size:.8rem!important; width:390px!important; }
+.maintextdiv1 button{  font-size:1.1rem!important;margin-top:1rem!important; } 
+
+
+/* features div */
+
+.featuresheadingdiv{ margin-top: 4rem;}
+.featuresheadingdiv h1{ font-size: 2.5rem!important; }
+.featuresheadingdiv h1 font{  font-size: 3.8rem!important;}
+
+.secondbgdiv{ height: 73rem; background:linear-gradient(to top left,rgba(255, 255, 255, 0.3),rgba(0, 0, 0, 1)), url(file:///D:/Project%203/images%20for%20project%203/secondbgimg2.jpg);background-attachment: fixed;
+	background-size: 100% 100%;}
+.featurediv div h2{font-size: 2.8rem; }
+.featurediv div h1{font-size: 1.3rem; }
+.featurediv div p{font-size: .6rem;margin-top: 1.4rem; }
+.featurediv1{ margin-top: 5rem!important;height: 14rem;margin-left: 17.5%; width: 65%!important;}
+.featurediv2{ margin-top:5rem!important;height: 14rem;margin-left: 17.5%; width: 65%!important;}
+.featurediv3{ margin-top:5rem!important;height: 14rem;margin-left: 17.5%; width: 65%!important;}
+
+
+/* some special features div */
+
+.smespecialfeaturetextdiv{ height: 30rem; }
+.smespecialfeaturetextdiv p{ font-size: 1.4rem; }
+
+.smespecialfeatureimgdiv1{ height: 30rem;width: 100%!important;}
+.smespecialfeatureimgdiv2{ height: 30rem;width: 100%!important;}
+.smespecialfeatureimgdiv3{ height: 30rem;width: 100%!important;}
+
+
+
+
+
+
+/* about section */
+.aboutheading{ font-size: 2.7rem; }
+.aboutsection{ background-size: 100% 100%!important; background:url(file:///D:/Project%203/images%20for%20project%203/aboutdivimg2.jpg) ;}
+.aboutsectionchildodd{background: rgba(255, 255, 255, 0.4); width:80%!important; margin-left: 10%;margin-top: 1.3rem!important; padding: .5rem!important;}
+.aboutsectionchildeven{background: rgba(255, 255, 255, 0.4);width:80%!important; margin-left:10%!important; margin-top: 1.3rem!important;padding: .5rem!important;}
+.aboutsection div div h1{ font-size: 1.4rem;margin-top: .5rem!important; color: #000000;}
+.aboutsection div div p{ width: 90%; font-size: .8rem;width: 97%;}
+
+
+
+
+
+/* reviews section */
+
+
+.reviewsection div{height: 22.5rem; }
+.reviewcarouseldiv{ width: 100%!important;margin-left: 0%!important;}
+
+.imgdivreview{ }
+.imgdivreview img{ width: 75%;height: 32%;margin-left: 0rem!important; margin-top: 1rem!important;}
+.textdivreview{ font-size: .9rem;}
+.textdivreview h1{ left: 13rem!important; }
+.reviewcarouselbtn2{width:3rem!important; left: 69%!important;top: -14%!important; font-size: 1rem!important;}
+.reviewcarouselbtn1{width:3rem!important; left: 62%!important;top: -14%!important; font-size: 1rem!important; }
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+/*---------------------------------------------*/
+@media(max-width:576px){
+/*animation image*/
+.imgdivtop1{ height:23rem!important;width:75%!important;margin-left:25%!important;margin-top:3rem!important }
+.containertopdiv1{ display:none;  }
+.containertopdiv2{display: block;}
+
+.maintextdiv1{ width:90%!important; color: white;font-family: 'Raleway';padding-left: 4%!important;padding-top:0rem!important; }
+.maintextdiv1 h1{ font-size:4rem!important; }
+.maintextdiv1 h2{ font-size:3rem!important;  }
+.maintextdiv1 h3{ font-size:3.1rem!important;  }
+.maintextdiv1 p{ font-size:.6rem!important; width:310px!important; }
+.maintextdiv1 button{  font-size:1rem!important;margin-top:.6rem!important; } 
+
+
+
+/* features div */
+
+.featuresheadingdiv{ margin-top: 3rem;}
+.featuresheadingdiv h1{ font-size: 2.1rem!important; }
+.featuresheadingdiv h1 font{  font-size: 3.1rem!important;}
+
+.secondbgdiv{ height: 64rem;}
+.featurediv div h2{font-size: 2.5rem; }
+.featurediv div h1{font-size: 1rem; }
+.featurediv div p{font-size: .5rem;margin-top: 1.4rem; }
+.featurediv1{ margin-top: 4rem!important;height: 13rem;margin-left: 17.5%; width: 65%!important;}
+.featurediv2{ margin-top:4rem!important;height: 13rem;margin-left: 17.5%; width: 65%!important;}
+.featurediv3{ margin-top:4rem!important;height: 13rem;margin-left: 17.5%; width: 65%!important;}
+
+
+
+
+/* some special features div */
+
+.smespecialfeaturetextdiv{ height: 25rem; }
+.smespecialfeaturetextdiv p{ font-size: 1.2rem; }
+
+.smespecialfeatureimgdiv1{ height: 25rem;width: 100%!important;}
+.smespecialfeatureimgdiv2{ height: 25rem;width: 100%!important;}
+.smespecialfeatureimgdiv3{ height: 25rem;width: 100%!important;}
+
+
+
+
+/* about section */
+.aboutheading{ font-size: 2.3rem; }
+.aboutsectionchildodd{background: rgba(255, 255, 255, 0.4); width:80%!important; margin-left: 10%;margin-top: .9rem!important; padding: .5rem!important;}
+.aboutsectionchildeven{background: rgba(255, 255, 255, 0.4);width:80%!important; margin-left:10%!important; margin-top: .9rem!important;padding: .5rem!important;}
+.aboutsection div div h1{ font-size: 1.2rem;margin-top: .5rem!important; color: #000000;}
+.aboutsection div div p{ width: 90%; font-size: .7rem;width: 97%;}
+
+
+
+
+
+/* reviews section */
+
+
+.reviewsection div{height: 21.5rem!important; }
+.reviewcarouseldiv{ width: 100%!important;margin-left: 0%!important;}
+
+.imgdivreview{ }
+.imgdivreview img{ width: 75%;height: 30%;margin-left: 0rem!important; margin-top: 2rem!important;}
+.textdivreview{ font-size: .8rem;}
+.textdivreview p{ margin-left: 2rem!important; }
+.textdivreview h1{ left: 10rem!important; }
+.reviewcarouselbtn2{width:3rem!important; left: 69%!important;top: -14%!important; font-size: 1rem!important;}
+.reviewcarouselbtn1{width:3rem!important; left: 62%!important;top: -14%!important; font-size: 1rem!important; }
+
+
+
+
+
+
+
+}	
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------------------------------*/
+@media(max-width:394px){
+/*animation image*/
+.imgdivtop1{ height:16rem!important;width:75%!important;margin-left:25%!important;margin-top:3rem!important }
+.containertopdiv1{ display:none;  }
+.containertopdiv2{display: block;}
+
+.maintextdiv1{ width:90%!important; color: white;font-family: 'Raleway';padding-left: 8%!important;padding-top:0rem!important; }
+.maintextdiv1 h1{ font-size:3rem!important; line-height: 2rem!important;}
+.maintextdiv1 h2{ font-size:2rem!important;  }
+.maintextdiv1 h3{ font-size:2.1rem!important;  }
+.maintextdiv1 p{ font-size:.5rem!important; width:250px!important; }
+.maintextdiv1 button{ margin-bottom: 6rem!important; font-size:.8rem!important;margin-top:.3rem!important; }
+
+
+
+/* features div */
+
+.featuresheadingdiv{ margin-top: 2.5rem;}
+.featuresheadingdiv h1{ font-size: 1.3rem!important; }
+.featuresheadingdiv h1 font{  font-size: 2.3rem!important;}
+
+.secondbgdiv{ height:auto;padding-bottom: 3rem;}
+.featurediv div h2{font-size: 2.5rem; }
+.featurediv div h1{font-size: 1rem; }
+.featurediv div p{font-size: .5rem;margin-top: 1.4rem; }
+.featurediv1{ margin-top:3rem!important;height:auto;margin-left: 17.5%; width: 65%!important;}
+.featurediv2{ margin-top:3rem!important;height: auto;margin-left: 17.5%; width: 65%!important;}
+.featurediv3{ margin-top:3rem!important;height:auto;margin-left: 17.5%; width: 65%!important;}
+
+
+
+
+
+/* some special features div */
+
+.smespecialfeaturetextdiv{ height:20rem; }
+.smespecialfeaturetextdiv p{ font-size: 1rem; }
+
+.smespecialfeatureimgdiv1{ height: 20rem;width: 100%!important;}
+.smespecialfeatureimgdiv2{ height: 20rem;width: 100%!important;}
+.smespecialfeatureimgdiv3{ height: 20rem;width: 100%!important;}
+
+
+
+
+
+/* about section */
+.aboutheading{ font-size: 2rem; }
+.aboutsectionchildodd{background: rgba(255, 255, 255, 0.4); width:90%!important; margin-left: 5%;margin-top: .8rem!important; padding: .5rem!important;}
+.aboutsectionchildeven{background: rgba(255, 255, 255, 0.4);width:90%!important; margin-left:5%!important; margin-top: .8rem!important;padding: .5rem!important;}
+.aboutsection div div h1{ font-size: 1rem;margin-top: .5rem!important; color: #000000;}
+.aboutsection div div p{ width: 90%; font-size: .6rem;width: 97%;}
+
+
+
+
+
+/* reviews section */
+
+
+.reviewsection div{height: 22.5rem!important; }
+.reviewcarouseldiv{ width: 100%!important;margin-left: 0%!important;}
+
+.imgdivreview{ }
+.imgdivreview img{ width: 100%;height: 30%;margin-left: 0rem!important; margin-top: 2rem!important;}
+.textdivreview{ font-size: .8rem; margin-top: 6rem!important;}
+.textdivreview p{ margin-left: 2rem!important; }
+.textdivreview h1{ left: 7rem!important; }
+.reviewcarouselbtn2{width:3rem!important; left: 53%!important;top: -11%!important; font-size: .7rem!important;}
+.reviewcarouselbtn1{width:3rem!important; left: 47%!important;top: -11%!important; font-size: .7rem!important; }
+
+
+
+
+
+}
+
+
+
+
+
+/* extrassss */
+@media(max-width:264px){
+
+.textdivreview h1{ left: 4rem!important;top: 0!important; }
+.textdivreview{ font-size: .7rem; margin-top: 5rem!important;}
+.reviewcarouselbtn2{width:3rem!important; left: 40%!important;top: -11%!important; font-size: .7rem!important;}
+.reviewcarouselbtn1{width:3rem!important; left: 30%!important;top: -11%!important; font-size: .7rem!important; }
+
+
+}
+
+
+
+
+
+
