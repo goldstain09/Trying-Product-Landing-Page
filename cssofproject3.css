@@ -18,7 +18,7 @@ h1,h2,h3,p{ overflow-y:hidden; }
 .active:hover{ border-radius:0px!important;color:grey!important; }
 
 .firstbgimage1{z-index: -2!important;
-	background: url(file:///D:/Project%203/images%20for%20project%203/firstbgimg1.jpg);
+	background: url(firstbgimg1.jpg);
 	 background-size: 100% 100%; position: fixed!important;top: 0;
 	 width: 100vw;height: 60rem;background-attachment: fixed;
 }
@@ -90,7 +90,7 @@ padding-left: 2rem!important;
 .featuresheadingdiv h1 font{  font-family: 'Raleway';font-size: 7rem!important;font-weight: 100; display:inline!important;text-shadow:3px 3px 6px grey;}
 
 .secondbgdiv{z-index: 2;
-	background:linear-gradient(to top left,rgba(255, 255, 255, 0.3),rgba(0, 0, 0, 1)), url(file:///D:/Project%203/images%20for%20project%203/secondbgimg.jpg);background-attachment: fixed;
+	background:linear-gradient(to top left,rgba(255, 255, 255, 0.3),rgba(0, 0, 0, 1)), url(secondbgimg.jpg);background-attachment: fixed;
 	background-size: 100% 100%;height: 60rem;width: 100vw;
 }
 .featurediv{margin: 1.5%; width: 30%!important;border-radius: 12px;height: 25rem;opacity: 1;border-top-right-radius: 100px;border-bottom-left-radius: 0px;border-bottom-right-radius: 0px;
@@ -120,18 +120,18 @@ background-color: rgba(0, 0, 0,.3);border-bottom: 5px solid white;
 
 
 
-.smespecialfeaturemaincontainerdiv{background: url(file:///D:/Project%203/images%20for%20project%203/smespecialfeaturebgimg.jpg);background-attachment: fixed!important; height: auto;width: 100vw;background-size: 100% 100%;
+.smespecialfeaturemaincontainerdiv{background: url(smespecialfeaturebgimg.jpg);background-attachment: fixed!important; height: auto;width: 100vw;background-size: 100% 100%;
 }
  .smespecialfeaturetextdiv{background-color: rgba(245, 245, 245,.8)!important; display: flex;justify-content: center; align-items: center; border-bottom-right-radius: 0px!important;  border-radius: 10px; height: 35rem;width: 50%; background: rgba(0, 0, 0,.1);} 
 .smespecialfeaturetextdiv p{ font-size: 2rem;width: 76%;font-family: 'Raleway';}
 .smespecialfeaturetextdiv p span{ background-color: rgb(87, 87, 87);border-radius: 5px;padding: 5px;color: rgb(255, 255, 255); }
 
 
-.smespecialfeatureimgdiv1{border-radius: 10px; background: url(file:///D:/Project%203/images%20for%20project%203/smespecialfeaturedivimg1.jpg);height: 35rem;width: 50%!important;background-size: 100% 100%; margin-right: 0%;}
+.smespecialfeatureimgdiv1{border-radius: 10px; background: url(smespecialfeaturedivimg1.jpg);height: 35rem;width: 50%!important;background-size: 100% 100%; margin-right: 0%;}
 
-.smespecialfeatureimgdiv2{border-radius: 10px;background: url(file:///D:/Project%203/images%20for%20project%203/smespecialfeaturedivimg2.jpg);height: 35rem;width: 50%!important;background-size: 100% 100%; margin-left: 0%;}
+.smespecialfeatureimgdiv2{border-radius: 10px;background: url(smespecialfeaturedivimg2.jpg);height: 35rem;width: 50%!important;background-size: 100% 100%; margin-left: 0%;}
 
-.smespecialfeatureimgdiv3{border-radius: 10px; background: url(file:///D:/Project%203/images%20for%20project%203/smespecialfeaturedivimg3.jpg);height: 35rem;width: 50%!important;background-size: 100% 100%;margin-right: 0%;}
+.smespecialfeatureimgdiv3{border-radius: 10px; background: url(smespecialfeaturedivimg3.jpg);height: 35rem;width: 50%!important;background-size: 100% 100%;margin-right: 0%;}
 
 
 
@@ -154,7 +154,7 @@ background-color: rgba(0, 0, 0,.3);border-bottom: 5px solid white;
 
 .aboutheading{font-family: 'Raleway'; font-size: 6rem;color: #000000; padding-top: 2rem; padding-left: 1rem; padding-bottom: 2rem;margin-bottom: 0;}
 
-.aboutsection{background-attachment: fixed!important; height: auto;background: #ffffff; background:linear-gradient(to top left,rgba(255, 255, 255, 0.2),rgba(255, 255, 255, 0.2)),url(file:///D:/Project%203/images%20for%20project%203/aboutdivimg.jpg);background-size: 100% 100%;}
+.aboutsection{background-attachment: fixed!important; height: auto;background: #ffffff; background:linear-gradient(to top left,rgba(255, 255, 255, 0.2),rgba(255, 255, 255, 0.2)),url(aboutdivimg.jpg);background-size: 100% 100%;}
 
 .aboutsectionchildodd{padding: 1rem; margin-top: 3rem!important;  width: 35%!important;border-radius: 15px;margin-left: 8%; }
 .aboutsectionchildeven{padding:1rem;margin-top: 3rem!important;   width: 35%!important;margin-left: 19%!important;border-radius: 15px;}
@@ -172,7 +172,7 @@ background-color: rgba(0, 0, 0,.3);border-bottom: 5px solid white;
 #reviewdiv{ transform: translateY(100%); transition: all 3s; }
 
 
-.reviewsection{background:linear-gradient(to top left, rgba(4, 14, 18, 0.1), rgba(36, 40, 42, 0.1)) ,url(file:///D:/Project%203/images%20for%20project%203/reviewsectionbgimg.jpg);
+.reviewsection{background:linear-gradient(to top left, rgba(4, 14, 18, 0.1), rgba(36, 40, 42, 0.1)) ,url(reviewsectionbgimg.jpg);
 	height: 40rem;padding: 7.5rem 0rem;background-attachment: fixed!important;overflow: hidden!important;
 
 }
@@ -212,7 +212,7 @@ font-family: 'Dancing Script';font-size: 1.5rem;color: #ffffff; z-index:1;backgr
 .contactdivcontainer{
 	width: 100%;
 	height: 60rem;
-	background: url(file:///D:/Project%203/images%20for%20project%203/contactbgimg.jpg);
+	background: url(contactbgimg.jpg);
 	background-size: 100% 100%;
 }
 
@@ -482,7 +482,7 @@ fieldset:last-child button{width: 50%;font-weight: 900;
 
 /* about section */
 .aboutheading{ font-size: 3.5rem; }
-.aboutsection{ background-size: 100% 100%!important; background:url(file:///D:/Project%203/images%20for%20project%203/aboutdivimg2.jpg) ;}
+.aboutsection{ background-size: 100% 100%!important; background:url(aboutdivimg2.jpg) ;}
 .aboutsectionchildodd{ margin-left: 1%;margin-top: 1.3rem!important; padding: .5rem!important;}
 .aboutsectionchildeven{ margin-left:25%!important; margin-top: 1.3rem!important;padding: .5rem!important;}
 .aboutsection div div h1{ font-size: 1.3rem;margin-top: .5rem!important; }
@@ -547,7 +547,7 @@ fieldset:last-child button{width: 50%;font-weight: 900;
 .featuresheadingdiv h1{ font-size: 2.5rem!important; }
 .featuresheadingdiv h1 font{  font-size: 3.8rem!important;}
 
-.secondbgdiv{ height: 73rem; background:linear-gradient(to top left,rgba(255, 255, 255, 0.3),rgba(0, 0, 0, 1)), url(file:///D:/Project%203/images%20for%20project%203/secondbgimg2.jpg);background-attachment: fixed;
+.secondbgdiv{ height: 73rem; background:linear-gradient(to top left,rgba(255, 255, 255, 0.3),rgba(0, 0, 0, 1)), url(secondbgimg2.jpg);background-attachment: fixed;
 	background-size: 100% 100%;}
 .featurediv div h2{font-size: 2.8rem; }
 .featurediv div h1{font-size: 1.3rem; }
@@ -573,7 +573,7 @@ fieldset:last-child button{width: 50%;font-weight: 900;
 
 /* about section */
 .aboutheading{ font-size: 2.7rem; }
-.aboutsection{ background-size: 100% 100%!important; background:url(file:///D:/Project%203/images%20for%20project%203/aboutdivimg2.jpg) ;}
+.aboutsection{ background-size: 100% 100%!important; background:url(aboutdivimg2.jpg) ;}
 .aboutsectionchildodd{background: rgba(255, 255, 255, 0.4); width:80%!important; margin-left: 10%;margin-top: 1.3rem!important; padding: .5rem!important;}
 .aboutsectionchildeven{background: rgba(255, 255, 255, 0.4);width:80%!important; margin-left:10%!important; margin-top: 1.3rem!important;padding: .5rem!important;}
 .aboutsection div div h1{ font-size: 1.4rem;margin-top: .5rem!important; color: #000000;}
